@@ -1,5 +1,5 @@
 <?php
-require ('./logic/connectionCV.php');
+require('./logic/connectionCV.php');
 
 if (isset($_POST['submitCV'])){
 
@@ -25,7 +25,7 @@ if (isset($_POST['submitCV'])){
 
 // Header content type
         header("Content-type: application/pdf");
-        readfile('./assets/files/bewerbungAnhang.pdf');
+        readfile('../hidden/bewerbungAnhang.pdf');
 
 //        header("Content-Length: " . filesize($filename));
 //
