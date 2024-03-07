@@ -1,0 +1,85 @@
+/*h1 {
+    color: turquoise;
+}*/
+
+body {
+    background-color: #2d3e4e;
+    background-position: 50%;
+}
+
+.banner_txt{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    text-align: center; /* Stellt sicher, dass der Text, falls er in mehreren Zeilen angezeigt wird, zentriert ist */
+
+}
+.content1{
+    max-width: 300px;
+    max-height: 500px;
+    display: flex;
+    /*flex-direction: column; !* Stapelt die Elemente vertikal *!*/
+    align-items: center; /* Zentriert die Elemente horizontal */
+    justify-content: center; /* Zentriert die Elemente vertikal */
+    text-align: center; /* Zentriert den Text innerhalb der Elemente */
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 1em;
+}
+.image-container img {
+    width: 200px; /* Feste Breite */
+    height: 150px; /* Feste Höhe */
+    object-fit: cover;
+}
+
+/* Basisregeln, die auf alle Geräte angewendet werden */
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+.linkcolor{
+    color: turquoise;
+    margin-left: 5px;
+}
+.linkcolor:hover{
+    color: #247e75;
+}
+.myImg{
+    width: 12%;
+    float:left;
+    margin-left: 30%;
+    padding-right: 1rem;
+}
+.myText{
+    color: turquoise;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+/* Stile für Bildschirme, die breiter als 768px sind */
+@media (min-width: 768px) {
+    .responsive-image {
+        max-width: 80%;
+    }
+}
+
+/* Stile für Bildschirme, die breiter als 1200px sind */
+@media (min-width: 1200px) {
+    .responsive-image {
+        max-width: 1200px;
+    }
+}
+
+.banner {
+    width: 100%; /* Setzt die Breite auf die volle Breite des Containers */
+    height: auto; /* Die Höhe wird automatisch an das Seitenverhältnis des Bildes angepasst */
+    background-image: url('/assets/img/hamburgDigital1.png'); /* Pfad zu Ihrem Hintergrundbild */
+    background-size: cover; /* Stellt sicher, dass das Bild den gesamten Bereich abdeckt */
+    background-position: center; /* Zentriert das Bild */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Bildes */
+}
+.card col{
+    max-height: 650px !important;
+}
