@@ -1,9 +1,9 @@
 
-<div class="container-fluid">
+<div class="container">
     <!--    first row-->
     <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
         <div class="col ">
-            <div class="card p-1">
+            <div class="card p-1 cardRow1">
                 <img src="./assets/img/ScreenGH.png" class="card-img-top" alt="Screenshot GitHub">
                 <div class="card-body">
                     <h5 class="card-title">GitHub</h5>
@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card p-1">
+            <div class="card p-1 cardRow1">
                 <img src="./assets/img/orcKlein.png" class="card-img-top" alt="orc-warrior">
                 <div class="card-body">
                     <h5 class="card-title">Rollenspiel in PHP</h5>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card p-1">
+            <div class="card p-1 cardRow1">
                 <img src="./assets/img/CVthumb.png" class="card-img-top" alt="orc-warrior">
                 <div class="card-body">
                     <h5 class="card-title">Mein CV zum Download</h5>
@@ -69,7 +69,7 @@
     <!--    second roe-->
     <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
         <div class="col ">
-            <div class="card p-1">
+            <div class="card p-1 cardRow2">
                 <img src="./assets/img/KniffelThumb.png" class="card-img-top" alt="Screenshot GitHub">
                 <div class="card-body">
                     <h5 class="card-title">Kniffel API - JAVA & Spring Boot</h5>
@@ -79,7 +79,19 @@
             </div>
         </div>
         <div class="col">
-            <div class="card p-1">
+            <div class="card p-1 cardRow2">
+                <img src="./assets/img/HpSH.png" class="card-img-top" alt="orc-warrior">
+                <div class="card-body">
+                    <h5 class="card-title">Meine Homepage</h5>
+                    <p class="card-text">Der Code zu meiner Homepage findet ihr auch bei GitHub. Er wird Stück für stück weiter modulariesiert. Eine URL Router Class ist auch geplant.</p>
+                    <a class="menu-links btn btn-info " href="https://github.com/MOTfromH/motfromh">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card p-1 cardRow2">
                 <img src="./assets/img/blogPrev.PNG" class="card-img-top" alt="orc-warrior">
                 <div class="card-body">
                     <h5 class="card-title">Dynamisch erstellter blog mit PHP</h5>
@@ -89,8 +101,11 @@
             </div>
         </div>
 
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+
         <div class="col">
-            <div class="card p-1">
+            <div class="card p-1 cardRow3">
                 <img src="./assets/img/spritePreview4.png" class="card-img-top" alt="Sprite Animation">
                 <div class="card-body">
                     <h5 class="card-title">Sprite Animation mit JS</h5>
@@ -99,7 +114,6 @@
                 </div>
             </div>
         </div>
-
 
     </div>
 </div>

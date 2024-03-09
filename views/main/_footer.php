@@ -10,7 +10,7 @@
         </a>
 
         <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link px-2">Home</a></li>
             <li class="nav-item"><a href="datenschutz.html" class="nav-link px-2">Datenschutz</a></li>
 
         </ul>

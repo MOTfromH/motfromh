@@ -15,14 +15,33 @@ body {
     text-align: center; /* Stellt sicher, dass der Text, falls er in mehreren Zeilen angezeigt wird, zentriert ist */
 
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex: 1;
+}
+.card.p-1.cardRow1 {
+    height: 650px;
+}
+
+.card.p-1.cardRow2 {
+    height: 500px;
+}
+.card.p-1.cardRow2 {
+    height: 550px;
+}
+
 .content1{
     max-width: 300px;
     max-height: 500px;
     display: flex;
-    /*flex-direction: column; !* Stapelt die Elemente vertikal *!*/
-    align-items: center; /* Zentriert die Elemente horizontal */
-    justify-content: center; /* Zentriert die Elemente vertikal */
-    text-align: center; /* Zentriert den Text innerhalb der Elemente */
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     border-color: black;
     border-width: 1px;
     border-style: solid;
