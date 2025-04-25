@@ -1,5 +1,5 @@
 # motfromh
-English Verson below
+English Version below
 
 Ich habe kürzlich meine Umschulung zum Fachinformatiker für Anwendungsentwicklung abgeschlossen und bin derzeit auf der Suche nach einer spannenden Einstiegsmöglichkeit im Bereich Development oder DevOps.
 
