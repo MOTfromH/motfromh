@@ -11,6 +11,7 @@ Diese GitHub-Seite dient mir sowohl zur Projektverwaltung als auch als kleine Vi
 
 
 Englich Version:
+
 I recently completed my retraining as a software developer ("Fachinformatiker für Anwendungsentwicklung") and am currently seeking an exciting entry-level opportunity in development or DevOps.
 
 In my previous professional experience, I mainly worked with Ruby and gained practical experience developing web applications—primarily focusing on backend development, with occasional ventures into frontend tasks. I'll soon publish some of these projects here after revising them and removing any company-specific content.
